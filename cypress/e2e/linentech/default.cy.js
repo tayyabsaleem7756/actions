@@ -13,7 +13,7 @@ Cypress._.times(1, () => {
             // Will run before testcase execution
             cy.visit(Cypress.env('baseUrl'))
         })
-        context('Context Name Here', () => {
+        context('Context Name Here1', () => {
             // Independant testcase
             it('C10: TestCase Name Here', () => {
                 pages.pageActions.verifyPageURL()
@@ -41,5 +41,3 @@ Cypress._.times(1, () => {
 
     })
 })
-
-
