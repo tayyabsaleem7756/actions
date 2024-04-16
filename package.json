@@ -1,0 +1,29 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "linentech-staging": "cypress run -e product=linentech,env=staging",
+    "linentech-staging.open": "cypress open --e2e -e product=linentech,env=staging",
+    "linentech-release": "cypress run -e product=linentech,env=release",
+    "linentech-release.open": "cypress open --e2e -e product=linentech,env=release",
+    "linentech-production": "cypress run -e product=linentech,env=production",
+    "linentech-production.open": "cypress open --e2e -e product=linentech,env=production",
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-project": "hygen project with-prompt && prettier --write . >/dev/null",
+    "pretest": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-testrail": "^2.9.0",
+    "cypress-testrail-reporter": "^1.3.4",
+    "cypress-xpath": "^2.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cy-verify-downloads": "^0.2.3"
+  }
+}

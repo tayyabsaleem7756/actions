@@ -1,0 +1,17 @@
+
+{
+  "commonPaths": {},
+  "envs": {
+    
+      "staging": {
+        "baseUrl": "www.linentech.net"
+      },    
+      "release": {
+        "baseUrl": "www.linentech.net"
+      },    
+      "production": {
+        "baseUrl": "www.linentech.net"
+      }    
+  }
+}
+
