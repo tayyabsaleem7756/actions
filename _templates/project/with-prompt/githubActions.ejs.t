@@ -1,3 +1,7 @@
+---
+to: "<%= github ? '.github/workflows/main.yml' : null %>"
+---
+
 name: Cypress Tests
 on: [push]
 jobs:
@@ -12,3 +16,6 @@ jobs:
         with:
           command: npx cypress run
           browser: chrome
+
+
+
