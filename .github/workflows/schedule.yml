@@ -2,7 +2,8 @@ name: Cypress schedule tests
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "17 13 * * *"
+    - cron: "19 13 * * *"
+  workflow_dispatch:
 jobs:
   Cypress-Test:
     runs-on: ubuntu-latest
