@@ -11,13 +11,6 @@
     "linentech-production": "cypress run -e product=linentech,env=production",
     "linentech-production.open": "cypress open --e2e -e product=linentech,env=production",
 
-    "linentech-staging": "cypress run -e product=linentech,env=staging",
-    "linentech-staging.open": "cypress open --e2e -e product=linentech,env=staging",
-    "linentech-release": "cypress run -e product=linentech,env=release",
-    "linentech-release.open": "cypress open --e2e -e product=linentech,env=release",
-    "linentech-production": "cypress run -e product=linentech,env=production",
-    "linentech-production.open": "cypress open --e2e -e product=linentech,env=production",
-
     "test": "echo \"Error: no test specified\" && exit 1",
     "add-project": "hygen project with-prompt && prettier --write . >/dev/null",
     "pretest": ""
