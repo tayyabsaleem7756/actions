@@ -2,7 +2,7 @@ name: Cypress schedule tests
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 jobs:
   Cypress-Test:
     runs-on: ubuntu-latest
