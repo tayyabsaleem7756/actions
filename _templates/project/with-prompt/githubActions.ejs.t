@@ -1,8 +1,9 @@
-name: Cypress (push)
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "* 6 * * *"
+---
+to: "<%= github ? '.github/workflows/main.yml' : null %>"
+---
+
+name: Cypress test (push)
+on: [push]
 jobs:
   Cypress-Test:
     runs-on: ubuntu-latest
