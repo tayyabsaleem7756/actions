@@ -1,8 +1,8 @@
-name: Cypress schedule tests
+name: Cypress (push)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"
+    - cron: "* 6 * * *"
 jobs:
   Cypress-Test:
     runs-on: ubuntu-latest
